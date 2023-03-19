@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header,
+footer{
+    background-color: #1f2937;
+}
+header{
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo{
+    box-sizing: border-box;
+    margin-right: auto;
+    padding: 16px;
+}
+
+.top-nav{
+    box-sizing: border-box;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding-right: 16px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+footer{
+    display: flex;
+    margin-bottom:auto;
+    border: red solid 1px;
+    
+
+}
