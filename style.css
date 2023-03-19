@@ -1,17 +1,25 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'roboto';
+    
 }
+/*global header/footer css*/
 header,
 footer{
     background-color: #1f2937;
 }
+
+
+/*hero container (first container + header)*/
 header{
     box-sizing: border-box;
-    display: flex;
     color: white;
     justify-content: center;
     align-items: center;
+}
+.top-nav{
+    display: flex;
 }
 .header-logo{
     box-sizing: border-box;
@@ -19,7 +27,7 @@ header{
     padding: 16px;
 }
 
-.top-nav{
+.top-nav ul{
     box-sizing: border-box;
     display: flex;
     gap: 16px;
@@ -27,16 +35,50 @@ header{
     padding-right: 16px;
 }
 
-.main-container{
+.hero-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.hero-container-A{
+    align-self: center;
+
+}
+.hero-container-B{
+    height: 250px;
+    width: 400px;
+    background-color: gray;
+}
+
+
+/*global item conntainer css*/
+.item-container{
     display: flex;
     flex-direction: column;
     background-color: bisque;
 }
 
+/*container 1*/
+.item-container#1{
+
+}
+/*container 2*/
+.item-container#2{
+    
+}
+/*container 3*/
+.item-container#3{
+    
+}
+
+
+/*footer*/
 footer{
     display: flex;
     margin-bottom:auto;
     border: red solid 1px;
-    
 
 }
