@@ -138,6 +138,28 @@ header{
 .item-container#two{
     background-color: #e5e7eb;
 }
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    padding-bottom:20px;
+}
+.quote p{
+    box-sizing: border-box;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding-top: 20px;
+}
+.signature{
+    font-weight: bold;
+    align-self: flex-end;
+
+
+}
 /*container 3*/
 .item-container#three{
 
