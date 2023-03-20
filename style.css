@@ -5,13 +5,21 @@ body{
     height: 100vh;
     
 }
-/*global header/footer css*/
+/*multi class css*/
 header,
 footer{
     background-color: #1f2937;
 
 }
-
+button{
+    padding:10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border:#3882f6 solid;
+    font-weight: bold;
+}
 
 /*hero container (first container + header)*/
 header{
@@ -67,15 +75,6 @@ header{
 .hero-paragraph{
     font-size: 18px;
     color: #e5e7eb;
-}
-.hero-container-A button{
-    padding:10px;
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 7px 25px;
-    border-radius: 5px;
-    border:#3882f6 solid;
-    font-weight: bold;
 }
 /*container B*/
 .hero-container-B{
@@ -164,6 +163,16 @@ header{
 .item-container#three{
 
 }
+.call-container{
+
+}
+.call-to-action{
+
+}
+.call-title{
+
+}
+
 
 
 /*footer*/
