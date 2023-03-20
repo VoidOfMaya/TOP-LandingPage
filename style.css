@@ -79,6 +79,7 @@ header{
 }
 /*container B*/
 .hero-container-B{
+    justify-self: center;
     height: 250px;
     width: 400px;
 }
