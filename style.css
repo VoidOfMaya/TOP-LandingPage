@@ -8,6 +8,7 @@ body{
 header,
 footer{
     background-color: #1f2937;
+
 }
 
 
@@ -20,11 +21,20 @@ header{
 }
 .top-nav{
     display: flex;
+    width: 800px;
+    margin: auto;
+}
+.header ul{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .header-logo{
     box-sizing: border-box;
     margin-right: auto;
-    padding: 16px;
+    align-self: center;
+    padding-right: 16px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .top-nav ul{
@@ -32,27 +42,51 @@ header{
     display: flex;
     gap: 16px;
     list-style: none;
-    padding-right: 16px;
 }
 
+/*container A*/
 .hero-container{
     display: flex;
-    justify-content: center;
+    margin: 70px auto ;
+    width: 800px;
     
 
 }
-
-
 .hero-container-A{
-    align-self: center;
+    align-self:space-between;
+    flex:1;
+    margin-right: 20px;
 
 }
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-paragraph{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-container-A button{
+    padding:10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border:#3882f6 solid;
+    font-weight: bold;
+}
+
+
+/*container B*/
 .hero-container-B{
     height: 250px;
     width: 400px;
-    background-color: gray;
 }
-
+.hero-container-B img{
+    width: 100%;
+    height: 100%;
+}
 
 /*global item conntainer css*/
 .item-container{
